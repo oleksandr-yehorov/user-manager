@@ -1,0 +1,30 @@
+<div class="head"><app-loader></app-loader>
+  <h2>Users</h2>
+  <div class="col-xs-8 col-xs-offset-2">
+    <div class="form-group">
+      <p>Search:</p>
+      <input
+        type="text"
+        class="form-control"
+        [placeholder]="searchPlaceholder"
+        [(ngModel)]="searchValue"
+      >
+    </div>
+  </div>
+    <hr>
+<div class="main">
+    <div class="col-xs-8 col-xs-offset-2">
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let user of users">
+      <span class="badge">#{{user.id}}</span>
+      <span class="badge">{{user.id}}</span>
+      <span class="badge">   {{user.email}}</span>
+      <span class="badge">   {{user.firstName}}</span>
+      <span class="badge">   {{user.lastName}}</span>
+      <button class="btn btn-success" (click)="openUserPage()">View</button>
+      <button class="btn btn-primary">Edit</button>
+      <button class="btn btn-danger" (click)="deleteUser(user.id)">Delete</button>
+    </li>
+  </ul>
+</div>
+</div>

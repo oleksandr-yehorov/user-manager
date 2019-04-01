@@ -1,0 +1,65 @@
+<div class="main">
+<h2 align="center">Registration Form</h2>
+<hr>
+<div class="col-xs-8 col-xs-offset-2">
+  <!--<form (ngSubmit)="submitForm(form)" #form="ngForm">-->
+<form (ngSubmit)="submitForm(form)" #form="ngForm">
+    <div class="form-group">
+      <label>Email</label>
+      <input
+        type="text"
+        class="form-control"
+        [(ngModel)]="email"
+        name="email"
+        required
+        email
+        >
+    </div>
+
+    <p *ngIf="email.invalid && email.touched">Input correct email</p>
+
+    <div class="form-group">
+      <label>Password</label>
+      <input
+        type="password"
+        class="form-control"
+        name="pass"
+        required
+        minlength="6"
+        [(ngModel)]="password"
+        >
+    </div>
+  <!--#password="ngModel"-->
+    <!--<p *ngIf="password.invalid && password.touched">Input password</p>-->
+
+    <div class="form-group">
+      <label>First Name</label>
+      <input
+        type="text"
+        class="form-control"
+        name="firstName"
+        required
+        [(ngModel)]="firstName">
+    </div>
+
+    <div class="form-group">
+      <label>Last Name</label>
+      <input
+        type="text"
+        class="form-control"
+        name="lastName"
+        required
+        [(ngModel)]="lastName">
+    </div>
+    <button class="btn btn-success"
+            type="submit"
+            [disabled]="!form.valid"
+            (click)="addUser()">Register</button>
+
+  </form>
+</div>
+  <button class="btn btn-primary"
+          (click)="openLoginPage()">Back to Login</button>
+</div>
+
+<!--[disabled]="!form.valid"-->

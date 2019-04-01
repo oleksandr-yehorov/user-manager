@@ -1,0 +1,109 @@
+{
+  "users": [
+    {
+      "email": "test@gmail.com",
+      "password": "test",
+      "firstName": "TestUser",
+      "lastName": "TestUser",
+      "id": 1
+    },
+    {
+      "email": "huntbowman@tetratrex.com",
+      "password": "huntbow",
+      "firstName": "Hunt",
+      "lastName": "Bowman",
+      "id": 2
+    },
+    {
+      "email": "nadiavincent@tex.com",
+      "password": "N-Vince",
+      "firstName": "Nadia",
+      "lastName": "Vincent",
+      "id": 3
+    },
+    {
+      "email": "marisasutton@tetra.com",
+      "password": "m-sasutton",
+      "firstName": "Marisa",
+      "lastName": "Sutton",
+      "id": 4
+    },
+    {
+      "email": "cameronspears@gmail.com",
+      "password": "cameron765",
+      "firstName": "Cameron",
+      "lastName": "Spears",
+      "id": 5
+    },
+    {
+      "email": "dillonguy@tex.com",
+      "password": "dillon",
+      "firstName": "Dillon",
+      "lastName": "Guy",
+      "id": 6
+    },
+    {
+      "email": "calhounmontgomery@syz.com",
+      "password": "calhoun-m",
+      "firstName": "Calhoun",
+      "lastName": "Montgomery",
+      "id": 7
+    },
+    {
+      "email": "williamsonstrong@gmail.com",
+      "password": "w-strong",
+      "firstName": "Williamson",
+      "lastName": "Strong",
+      "id": 8
+    },
+    {
+      "email": "helenadavid@rex.com",
+      "password": "helenadavid",
+      "firstName": "Helena",
+      "lastName": "David",
+      "id": 9
+    },
+    {
+      "email": "dillardfletcher@tetratrex.com",
+      "password": "dillard",
+      "firstName": "Dillard",
+      "lastName": "Fletcher",
+      "id": 10
+    },
+    {
+      "email": "beckerblevins@gmail.com",
+      "password": "beckerblev",
+      "firstName": "Becker",
+      "lastName": "Blevins",
+      "id": 11
+    },
+    {
+      "email": "herminiastout@tetra.com",
+      "password": "herm-stout",
+      "firstName": "Herminia",
+      "lastName": "Stout",
+      "id": 12
+    },
+    {
+      "email": "lorrainecooper@tetratrex.com",
+      "password": "larra-cooper",
+      "firstName": "Lorraine",
+      "lastName": "Cooper",
+      "id": 13
+    },
+    {
+      "email": "albertfrederick@tetratrex.com",
+      "password": "a-frederick",
+      "firstName": "Albert",
+      "lastName": "Frederick",
+      "id": 14
+    },
+    {
+      "email": "rodriguezprince@tetratrex.com",
+      "password": "rodrigo",
+      "firstName": "Rodriguez",
+      "lastName": "Prince",
+      "id": 15
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+<div class="main">
+<h2 align="center">Login Form</h2>
+<hr>
+<div class="col-xs-8 col-xs-offset-2">
+  <form (ngSubmit)="submitForm(form)" #form="ngForm">
+
+    <div class="form-group">
+      <label>Email</label>
+      <input
+        type="text"
+        class="form-control"
+        ngModel
+        name="email"
+        required
+        email
+        #email="ngModel">
+    </div>
+
+    <p *ngIf="email.invalid && email.touched">Input correct email</p>
+
+    <div class="form-group">
+      <label>Password</label>
+      <input
+        type="password"
+        class="form-control"
+        ngModel
+        name="pass"
+        required
+        #pass="ngModel">
+    </div>
+
+    <p *ngIf="pass.invalid && pass.touched">Input correct password</p>
+  <hr>
+    <button
+      class="btn btn-success"
+      type="submit"
+      [disabled]="!form.valid"
+    (click)="openUserPage()">Login</button>
+
+    <button
+      class="btn btn-primary"
+      type="button"
+      (click)="openRegisterPage()">Registration
+    </button>
+  </form>
+</div>
+</div>
+
